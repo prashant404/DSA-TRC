@@ -825,7 +825,7 @@ function App() {
 
           <Route
             exact
-            path="/Greedy"
+            path="/Greedy Problems"
             element={
               <Questions
                 Checked={Checked1}
@@ -833,14 +833,14 @@ function App() {
                 setChecked={setChecked1}
                 mode={mode}
                 qlist={greedyq}
-                name="Greedy"
+                name="Greedy Problems"
               />
             }
           ></Route>
 
           <Route
             exact
-            path="/Dp"
+            path="/Dynamic Programming"
             element={
               <Questions
                 Checked={Checked2}
@@ -848,7 +848,7 @@ function App() {
                 setChecked={setChecked2}
                 mode={mode}
                 qlist={dpq}
-                name="Dp"
+                name="Dynamic Programming"
               />
             }
           ></Route>

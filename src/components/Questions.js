@@ -76,7 +76,6 @@ export default function Questions({ no, name, qlist, Checked, setChecked, qstate
 
 
       <div className='flex justify-center mt-24 ' >
-        <img className='w-10 h-10' src="Sparkle.png"></img>
         <h1 className='text-4xl mb-3' >{name}  Problems</h1>
       </div>
       <div className='flex justify-center mt-4'>

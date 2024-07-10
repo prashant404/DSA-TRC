@@ -43,20 +43,6 @@ export default function Lister({
     marginBottom: 30,
   };
 
-  const fillerStyles = {
-    height: '100%',
-    width: `${Math.round((count * 100) / 100)}%`,
-    backgroundColor: "#ff9933",
-    borderRadius: 'inherit',
-    textAlign: 'right',
-  };
-
-  const labelStyles = {
-    padding: 5,
-    color: 'white',
-    fontWeight: 'bold',
-  };
-
   return (
     <div>
       <h1 className="text-3xl mt-8 mb-4 text-center">Start your DSA Journey with Practice Questions</h1>
@@ -65,17 +51,17 @@ export default function Lister({
         For Beginners
       </h3>
 
-      <div className="mx-4 md:mx-8 lg:mx-16" style={containerStyles}>
+      {/* <div className="mx-4 md:mx-8 lg:mx-16" style={containerStyles}>
         <div style={fillerStyles}>
           <span style={labelStyles}>{`${count}% `}</span>
         </div>
-      </div>
+      </div> */}
 
       <div className="flex flex-wrap justify-center px-4 md:px-8 lg:px-16 mb-8">
         {/* Cards Section */}
         <Card qno={23} no={"12"} ans={Checked12} Checked={Checked12} name="Array and String" />
-        <Card qno={5} no={"1"} ans={Checked1} Checked={Checked1} name="Greedy" />
-        <Card qno={13} no={"2"} ans={Checked2} Checked={Checked2} name="Dp" />
+        <Card qno={5} no={"1"} ans={Checked1} Checked={Checked1} name="Greedy Problems" />
+        <Card qno={13} no={"2"} ans={Checked2} Checked={Checked2} name="Dynamic Programming" />
         <Card qno={7} no={"3"} ans={Checked3} Checked={Checked3} name="Binary search" />
         <Card qno={5} no={"4"} ans={Checked4} Checked={Checked4} name="Heaps" />
         <Card qno={6} no={"5"} ans={Checked5} Checked={Checked5} name="Recursion" />
